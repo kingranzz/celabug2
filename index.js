@@ -1,7 +1,7 @@
 const { default: makeWASocket, useMultiFileAuthState } = require("@whiskeysockets/baileys");
 const TelegramBot = require("node-telegram-bot-api");
 
-const bot = new TelegramBot("BOT_TOKEN_LU", { polling: true });
+const bot = new TelegramBot("7939910743:AAFkyMkb8zlFtg3i1nK2PTHOX0cl7a-D5xc", { polling: true });
 
 bot.onText(/\/cp (\d+) (\d+)/, async (msg, match) => {
     const chatId = msg.chat.id;
